@@ -1,0 +1,126 @@
+body {
+  font-family: "Lato";
+  color: #424551;
+}
+.header {
+  margin-bottom: 92px;
+}
+.header_block {
+  max-width: 810px;
+  margin: 0 auto;
+}
+.header_title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+}
+.verstka {
+  max-width: 810px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.image-content {
+  margin-bottom: 60px;
+}
+.image {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.text-regular {
+  margin-bottom: 24px;
+  line-height: 160%;
+}
+.text-content {
+  margin-bottom: 48px;
+}
+.bold {
+  margin-bottom: 24px;
+}
+.bold,
+.bold-two {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+}
+.bold-two {
+  padding-left: 58px;
+  margin-bottom: 48px;
+}
+.list {
+  margin-bottom: 24px;
+  padding-left: 32px;
+}
+li {
+  margin-bottom: 4px;
+  line-height: 160%;
+}
+.block {
+  font-family: "Caveat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.one {
+  display: block;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 20% 100% 19% 81% / 84% 36% 64% 16%;
+  margin: 0 auto;
+  max-width: 200px;
+  margin-bottom: 15px;
+  text-shadow: 1px 2px 2px black;
+  text-indent: 20px;
+}
+.two {
+  background-color: yellow;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  overflow: hidden;
+  box-shadow: 40px 10px 41px 11px;
+}
+.three {
+  border: 10px solid green;
+  max-height: 300px;
+  margin-bottom: 15px;
+  max-width: 200px;
+  margin: 0 0 0 auto;
+  overflow: scroll;
+  word-spacing: 20px;
+}
+.infour {
+  background-color: black;
+  padding: 10px;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
+.four {
+  border-top: 2px solid blueviolet;
+  border-right: 1px dotted gray;
+  border-bottom: 3px double green;
+  border-left: 6px dashed yellow;
+  color: #fff;
+  max-width: 200px;
+  margin-left: 10%;
+  letter-spacing: 7px;
+}
+
+.button {
+  background-color: fuchsia;
+  padding: 15px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 #000;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  margin-left: 30%;
+}
+.button:hover {
+  margin-top: 3px;
+  box-shadow: 0 2px 0 #000;
+}
